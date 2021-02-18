@@ -10,7 +10,7 @@ namespace ALCodeGenerator
             {
                 Path = ".\\Teszt.csv"
             };
-            aLTableGenerator.ImportCSVFile();
+            aLTableGenerator.ImportTableCSVFile();
             Console.WriteLine("CSV Imported.");
 
             aLTableGenerator.GenerateALTableCode();
