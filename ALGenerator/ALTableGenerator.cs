@@ -5,9 +5,9 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ALCodeGenerator
+namespace ALGenerator
 {
-    class ALTableGenerator
+    public class ALTableGenerator
     {
         public string Path { get; set; }
         public string[] AlCSV { get; private set; }

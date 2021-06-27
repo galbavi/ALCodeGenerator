@@ -1,4 +1,5 @@
 ﻿using System;
+using ALGenerator;
 
 namespace ALCodeGenerator
 {
@@ -8,7 +9,7 @@ namespace ALCodeGenerator
         {
             ALTableGenerator aLTableGenerator = new ALTableGenerator
             {
-                Path = ".\\Teszt.csv"
+                Path = "E:\\Downloads\\tesz.csv"
             };
             aLTableGenerator.ImportTableCSVFile();
             Console.WriteLine("CSV Imported.");
